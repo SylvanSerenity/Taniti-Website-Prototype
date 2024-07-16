@@ -33,7 +33,7 @@
 		align-items: center;
 		justify-content: center;
 
-		background-color: forestgreen;
+		background-color: #228B2255;
 		color: white;
 	}
 
@@ -56,7 +56,7 @@
 	}
 
 	.nav-item {
-		margin-rigt: 5px;
+		margin-right: 30px;
 		padding: 10px;
 		height: 100%;
 
@@ -85,6 +85,7 @@
 	}
 
 	.dropdown {
+		position: relative;
 		height: 100%;
 
 		display: flex;
@@ -113,7 +114,7 @@
 		top: var(--nav-height);
 
 		display: block;
-		background-color: forestgreen;
+		background-color: #228B2255;
 	}
 	.dropdown-menu .nav-item {
 		margin: 0;
