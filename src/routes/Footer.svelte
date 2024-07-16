@@ -1,6 +1,6 @@
 <footer>
 	&#169;2024 Taniti Tourism Co.
-	<a href="/contact">Contact</a>
+	<a href="/contact">Contact Us</a>
 </footer>
 
 <style>
