@@ -17,7 +17,8 @@
 				<li class="nav-item"><a href="/sightseeing">Sightseeing</a></li>
 			</ul>
 		</li>
-		<li class="nav-item"><a href="/faq">FAQ</a></li>
+		<li class="nav-item"><a class="nav-link" href="/map">Map</a></li>
+		<li class="nav-item"><a class="nav-link" href="/faq">FAQ</a></li>
 	</ul>
 </nav>
 
@@ -86,9 +87,9 @@
 		transition: width 0.3s ease, left 0.3s ease;
 		content: '';
 	}
-	.nav-item::hover .nav-link::after, .nav-link:hover::after {
-		width: 100%;
-		left: 0;
+	.nav-item:hover .nav-link::after {
+		width: 90%;
+		left: 5%;
 	}
 
 	.dropdown {
