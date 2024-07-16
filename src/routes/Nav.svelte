@@ -106,6 +106,7 @@
 		position: absolute;
 		margin-left: -10px;
 
+		border-radius: 0 0 4px 4px;
 		box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
 		transition: background-color 0.3s ease;
 		visibility: hidden;
@@ -124,6 +125,6 @@
 		margin: 0;
 	}
 	.dropdown-menu .nav-item:hover {
-		background-color: rgba(0, 0, 0, 0.2);
+		background-color: rgba(0, 0, 0, 0.1);
 	}
 </style>
