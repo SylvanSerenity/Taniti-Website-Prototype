@@ -33,8 +33,15 @@
 		align-items: center;
 		justify-content: center;
 
-		background-color: #228B2255;
+		--nav-color: #228B2255;
+		background-color: var(--nav-color);
 		color: white;
+		transition: background-color 0.3s ease;
+		overflow: hidden;
+	}
+	nav:hover, nav:hover .dropdown-menu {
+		--nav-color: forestgreen;
+		background-color: var(--nav-color);
 	}
 
 	nav * {
@@ -99,22 +106,19 @@
 		position: absolute;
 		margin-left: -10px;
 
-		display: none;
-
 		box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+		transition: background-color 0.3s ease;
+		visibility: hidden;
+		opacity: 0;
 	}
 
-	@media screen and (min-width: 480px) {
-		.dropdown:hover {
-			width: 110px;
-		}
-	}
 	.dropdown:hover .dropdown-menu {
 		position: fixed;
 		top: var(--nav-height);
 
-		display: block;
-		background-color: #228B2255;
+		visibility: visible;
+		opacity: 1;
+		background-color: var(--nav-color);
 	}
 	.dropdown-menu .nav-item {
 		margin: 0;
