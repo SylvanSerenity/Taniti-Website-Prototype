@@ -1,0 +1,27 @@
+:root {
+	--nav-height: 60px;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	margin-top: var(--nav-height);
+	min-height: calc(100vh - var(--nav-height));
+
+	display: flex;
+	flex-direction: column;
+
+	background-color: palegreen;
+}
+
+main {
+	flex: 1;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
