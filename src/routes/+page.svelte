@@ -10,11 +10,11 @@
 
 <main>
 	<video autoplay muted loop playsinline>
-		<source src="/taniti.mp4" type="video/mp4">
+		<source src="/taniti-intro.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>
 	<div class="video-overlay">
-		<h1><a href="/about">About</a></h1>
+		<h1><a href="/about">Taniti</a></h1>
 	</div>
 </main>
 
@@ -22,9 +22,9 @@
 	video {
 		position: absolute;
 		z-index: -1;
-		top: 0;
+		top: calc(-1 * var(--nav-height));
 		width: 100%;
-		height: 100%;
+		height: 100vh;
 
 		overflow: hidden;
 		object-fit: cover;
@@ -34,20 +34,18 @@
 		position: absolute;
 		left: 50%;
 		top: 50%;
-		padding: 15px;
+		padding: 0;
 
-		background-color: #00800025;
 		font-size: 20px;
 		border-radius: 16px;
 		transform: translate(-50%, -50%) scale(1.0);
-		transition: transform 0.3s ease, background-color 0.3s ease;
+		transition: transform 0.3s ease;
 	}
 	.video-overlay a {
 		color: white;
 		text-decoration: none;
 	}
 	.video-overlay:hover {
-		background-color: #00800055;
 		transform: translate(-50%, -50%) scale(1.1);
 	}
 </style>
