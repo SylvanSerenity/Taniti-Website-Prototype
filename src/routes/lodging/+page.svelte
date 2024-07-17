@@ -27,7 +27,7 @@
 			<p>$529/night</p>
 		</div>
 		<div class="showcase-container">
-			<img src="/lodging/shawman-hotel.jpg alt="Shawman Hotel">
+			<img src="/lodging/shawman-hotel.jpg" alt="Shawman Hotel">
 			<h2>Shawman Hotel</h2>
 			<p>Hotel</p>
 			<p>***</p>
