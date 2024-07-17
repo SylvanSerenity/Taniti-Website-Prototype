@@ -72,15 +72,16 @@ form textarea {
 	min-width: 80px;
 }
 form button {
-	width: 50%;
-	padding: 5px;
-	margin-top: 5px;
+	width: 35%;
+	padding: 10px 5px;
+	margin-top: 10px;
 
 	border: none;
 	border-radius: 8px;
 	color: white;
-	background-color: gray;
+	background-color: skyblue;
 	cursor: pointer;
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .text-container {
