@@ -80,6 +80,7 @@ form button {
 	border-radius: 8px;
 	color: white;
 	background-color: gray;
+	cursor: pointer;
 }
 
 .text-container {
