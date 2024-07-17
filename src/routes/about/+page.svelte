@@ -12,12 +12,16 @@
 	<title>About Taniti</title>
 </svelte:head>
 
+<Nav />
+
 <main>
 	<h1>About</h1>
 	<div class="slideshow-container">
 		<Slideshow {slides} />
 	</div>
 </main>
+
+<Footer />
 
 <style>
 	.slideshow-container {
