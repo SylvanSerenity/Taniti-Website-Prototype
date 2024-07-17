@@ -63,6 +63,24 @@ p {
 	align-items: center;
 }
 
+.stacked-item {
+	width: 100%;
+	margin: 20px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.stacked-item img {
+	width: 200px;
+	height: 200px;
+	margin: 20px 30px;
+
+	border-radius: 12px;
+	object-fit: cover;
+}
+
 .showcase-container {
 	margin-left: 5%;
 	width: calc(100% / 5);
@@ -96,5 +114,10 @@ p {
 
 	.split-content .text-container {
 		width: calc(100% / 2.5);
+	}
+
+	.stacked-content .text-container {
+		min-height: 200px;
+		width: 50%;
 	}
 }
