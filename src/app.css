@@ -27,3 +27,51 @@ main {
 	align-items: center;
 	justify-content: center;
 }
+
+h1 {
+	margin: 10px;
+	padding: 10px;
+}
+
+h2 {
+	padding: 10px;
+}
+
+p {
+	padding: 5px;
+}
+
+.text-container {
+	margin: 10px;
+	padding: 25px;
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	border-radius: 12px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.split-content {
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media screen and (min-width: 920px) {
+	.text-container {
+		justify-content: space-around;
+	}
+
+	.split-content {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.split-content .text-container {
+		width: calc(100% / 2.5);
+	}
+}
