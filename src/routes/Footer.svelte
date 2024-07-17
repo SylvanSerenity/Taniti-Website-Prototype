@@ -6,7 +6,7 @@
 <style>
 	footer {
 		width: 100%;
-		margin-top: 10px;
+		margin-top: 30px;
 		padding: 20px;
 
 		display: flex;
