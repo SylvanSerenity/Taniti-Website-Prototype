@@ -2,6 +2,10 @@
 	import Nav from './Nav.svelte';
 </script>
 
+<svelte:head>
+	<title>Taniti</title>
+</svelte:head>
+
 <Nav/>
 
 <main>
