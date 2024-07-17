@@ -21,7 +21,9 @@
 
 <style>
 	.slideshow-container {
-		width: 75%;
-		height: 75%;
+		width: 60vw;
+		height: 60vh;
+		background-color: rgba(0, 0, 0, 0.2);
+		overflow: hidden;
 	}
 </style>
