@@ -54,6 +54,13 @@
 		text-decoration: none;
 		color: white;
 	}
+	nav img {
+		opacity: 20%;
+		transition: opacity 0.3s ease;
+	}
+	nav:hover img {
+		opacity: 1;
+	}
 
 	.nav-section {
 		height: 100%;
