@@ -73,7 +73,7 @@
 	.nav-link {
 		position: relative;
 		cursor: pointer;
-		padding-bottom:2px;
+		padding-bottom: 3px;
 	}
 	.nav-link::after {
 		position: absolute;
