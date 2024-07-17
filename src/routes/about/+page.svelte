@@ -14,5 +14,14 @@
 
 <main>
 	<h1>About</h1>
-	<Slideshow {slides} />
+	<div class="slideshow-container">
+		<Slideshow {slides} />
+	</div>
 </main>
+
+<style>
+	.slideshow-container {
+		width: 75%;
+		height: 75%;
+	}
+</style>
