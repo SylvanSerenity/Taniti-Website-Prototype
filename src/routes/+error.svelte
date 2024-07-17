@@ -21,11 +21,12 @@
 <style>
 	a {
 		text-align: center;
-		background-color: #003b6d;
+		background-color: skyblue;
 		padding: 8px;
 		border-radius: 10px;
 		color: white;
 		text-decoration: none;
+		box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
 	}
 </style>
     
