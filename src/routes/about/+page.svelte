@@ -4,7 +4,11 @@
 	import Slideshow from './Slideshow.svelte';
 
 	const slides = [
-		{src: '/slideshow/volcano.jpg', text: 'Taniti\'s active volcano, Mt. Phosphur, is the longest-active volcano in the world!'}
+		{src: '/slideshow/bay.jpg', text: 'Taniti is a small, tropical island in the Pacific near Malaysia.'},
+		{src: '/slideshow/mountains.jpg', text: 'Desptie having an area of under 500 square miles, the island\'s terrain appears vast due to its incredible variety of land.'},
+		{src: '/slideshow/rainforest.jpg', text: 'The terrain includes sandy and rocky beaches, a small but safe harbor, lush tropical rainforests, and a mountainous interior with a small volcano.'},
+		{src: '/slideshow/volcano.jpg', text: 'Taniti\'s active volcano, Mt. Phosphur, is the longest-active volcano in the world!'},
+		{src: '/slideshow/residents.jpg', text: 'Taniti has about 20,000 indigenous residents, and until the recent increase in tourism, its economy was dominated by fishing and agriculture.'}
 	];
 </script>
 
