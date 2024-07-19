@@ -137,7 +137,7 @@ form button {
 
 .showcase-container {
 	margin-left: 5%;
-	width: calc(100% / 5);
+	max-width: 80%;
 }
 
 .showcase-container img {
@@ -203,5 +203,9 @@ form button {
 		right: calc(25% / 2);
 
 		transform: translateX(50%);
+	}
+
+	.showcase-container {
+		width: calc(100% / 5);
 	}
 }
