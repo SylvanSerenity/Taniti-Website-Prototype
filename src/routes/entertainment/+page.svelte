@@ -24,23 +24,12 @@
 			</div>
 		</div>
 		<div class="stacked-item">
-			<img src="/entertainment/art-gallery.jpg" alt="Art Gallery">
+			<img src="/entertainment/helicopter.jpg" alt="Helicopter Tours">
 			<div class="text-container">
-				<h2>Art Gallery</h2>
+				<h2>Helicopter Tours</h2>
 				<p>
-					Discover the vibrant art scene of Taniti at our local art gallery, featuring stunning works by both local
-					and international artists. The gallery offers a unique glimpse into the island’s rich culture and creative
-					spirit.
-				</p>
-			</div>
-		</div>
-		<div class="stacked-item">
-			<img src="/entertainment/bowling-arcade.jpg" alt="Bowling Arcade">
-			<div class="text-container">
-				<h2>Bowling Arcade</h2>
-				<p>
-					For a fun-filled family outing, visit our bowling arcade. Enjoy a game of bowling and explore a variety of
-					arcade games. Snacks are provided with the cost of entry!
+					See Taniti from a whole new perspective with a thrilling helicopter tour. Fly over lush landscapes,
+					pristine rocky and sandy beaches, and our active volcano for an unforgettable experience.
 				</p>
 			</div>
 		</div>
@@ -55,22 +44,22 @@
 			</div>
 		</div>
 		<div class="stacked-item">
+			<img src="/entertainment/volcano-surfing.jpg" alt="Volcano Surfing">
+			<div class="text-container">
+				<h2>Volcano Surfing</h2>
+				<p>
+					For thrill-seekers, volcano surfing is a must-try activity. Feel the adrenaline rush as you surf
+					down the slopes of our active volcano, a truly unique and exhilarating experience.
+				</p>
+			</div>
+		</div>
+		<div class="stacked-item">
 			<img src="/entertainment/dance-club.jpg" alt="Dance Club">
 			<div class="text-container">
 				<h2>Dance Club</h2>
 				<p>
 					When the sun goes down, Taniti’s nightlife heats up. Dance the night away at our vibrant dance club,
 					featuring live DJs and an electric atmosphere.
-				</p>
-			</div>
-		</div>
-		<div class="stacked-item">
-			<img src="/entertainment/helicopter.jpg" alt="Helicopter Tours">
-			<div class="text-container">
-				<h2>Helicopter Tours</h2>
-				<p>
-					See Taniti from a whole new perspective with a thrilling helicopter tour. Fly over lush landscapes,
-					pristine rocky and sandy beaches, and our active volcano for an unforgettable experience.
 				</p>
 			</div>
 		</div>
@@ -95,6 +84,17 @@
 			</div>
 		</div>
 		<div class="stacked-item">
+			<img src="/entertainment/art-gallery.jpg" alt="Art Gallery">
+			<div class="text-container">
+				<h2>Art Gallery</h2>
+				<p>
+					Discover the vibrant art scene of Taniti at our local art gallery, featuring stunning works by both local
+					and international artists. The gallery offers a unique glimpse into the island’s rich culture and creative
+					spirit.
+				</p>
+			</div>
+		</div>
+		<div class="stacked-item">
 			<img src="/entertainment/pub.jpg" alt="Pub">
 			<div class="text-container">
 				<h2>Pub</h2>
@@ -115,12 +115,12 @@
 			</div>
 		</div>
 		<div class="stacked-item">
-			<img src="/entertainment/volcano-surfing.jpg" alt="Volcano Surfing">
+			<img src="/entertainment/bowling-arcade.jpg" alt="Bowling Arcade">
 			<div class="text-container">
-				<h2>Volcano Surfing</h2>
+				<h2>Bowling Arcade</h2>
 				<p>
-					For thrill-seekers, volcano surfing is a must-try activity. Feel the adrenaline rush as you surf
-					down the slopes of our active volcano, a truly unique and exhilarating experience.
+					For a fun-filled family outing, visit our bowling arcade. Enjoy a game of bowling and explore a variety of
+					arcade games. Snacks are provided with the cost of entry!
 				</p>
 			</div>
 		</div>
@@ -134,7 +134,7 @@
 					operational within the next year!
 				</p>
 			</div>
-		</di	v
+		</div>
 	</div>
 </main>
 
