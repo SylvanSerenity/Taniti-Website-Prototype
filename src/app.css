@@ -100,12 +100,21 @@ form button {
 	width: 80%;
 }
 
-.split-content {
+.split-content, .showcase-content {
 	width: 100%;
 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.showcase-content {
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 5%;
 }
 
 .stacked-content {
@@ -136,15 +145,25 @@ form button {
 }
 
 .showcase-container {
-	margin-left: 5%;
-	max-width: 80%;
+	margin-top: 20px;
+	width: 80%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.showcase-title {
+	width: 100%;
+	padding-left: 10%;
 }
 
 .showcase-container img {
-	width: 100%;
+	width: 400px;
 	height: 200px;
 
 	object-fit: cover;
+	border-radius: 12px;
 }
 
 .showcase-container h2 {
@@ -183,6 +202,14 @@ form button {
 		width: 50%;
 	}
 
+	.showcase-content {
+		margin: 0 5%;
+		flex-wrap: nowrap;
+		flex-direction: row;
+
+		overflow: auto;
+	}
+
 	.stacked-item {
 		flex-direction: row;
 	}
@@ -206,6 +233,13 @@ form button {
 	}
 
 	.showcase-container {
-		width: calc(100% / 5);
+		height: 100%;
+		margin-right: 5%;
+	}
+	.showcase-container:last-child {
+		margin-right: 0;
+	}
+	.showcase-title {
+		padding: 0;
 	}
 }
