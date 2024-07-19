@@ -13,18 +13,18 @@
 	<h1>Entertainment</h1>
 	<div class="stacked-content">
 		<div class="stacked-item">
-			<img src="/restaurants/volcanic-cafe.jpg" alt="Volcanic Cafe">
+			<img src="/entertainment/ziplining.jpg" alt="Ziplining">
 			<div class="text-container">
-				<h2>Volcanic Cafe</h2>
-				<p>Enjoy a local buffet at this volcanic-themed cafe!</p>
+				<h2>Ziplining</h2>
+				<p>
+					Taniti offers two ziplining adventures to take you high above some the island's most stunning locations!
+					One decends a mountainous rainforest with many blue holes, and the other takes you from the side of the
+					volcano to the nearby rocky beaches!
+				</p>
 			</div>
 		</div>
 		<div class="stacked-item">
-			<img src="/restaurants/bay-grill.jpg" alt="Yellow Leaf Bay Grill">
-			<div class="text-container">
-				<h2>Yellow Leaf Bay Grill</h2>
-				<p>This American-style restuarant has </p>
-			</div>
+			<!-- TODO -->
 		</div>
 	</div>
 </main>
