@@ -55,6 +55,22 @@
 	}
 </script>
 
+<div class="slideshow-container">
+	{#each slides as slide, index}
+		<div role="button" aria-label="Hover box" tabindex="0" class:active={index === slideIndex} class="slide" onmouseenter={() => setSlideProgression(false)} onmouseleave={() => setSlideProgression(true)}>
+			<img src={slide.src} alt="Slide {index + 1}">
+			<div class="slide-text">{@html slide.text}</div>
+		</div>
+	{/each}
+	<button type="button" class="previous" onclick={previousSlide}>&#10094;</button>
+	<button type="button" class="next" onclick={nextSlide}>&#10095;</button>
+	<div class="indicator-container">
+		{#each slides as _, index}
+			<button type="button" class="indicator {index === slideIndex ? 'active' : ''}" onclick={() => setSlide(index)}></button>
+		{/each}
+	</div>
+</div>
+
 <style>
 	.slideshow-container {
 		position: relative;
@@ -156,19 +172,3 @@
 		color: #bdbdbd;
 	}
 </style>
-
-<div class="slideshow-container">
-	{#each slides as slide, index}
-		<div role="button" aria-label="Hover box" tabindex="0" class:active={index === slideIndex} class="slide" onmouseenter={() => setSlideProgression(false)} onmouseleave={() => setSlideProgression(true)}>
-			<img src={slide.src} alt="Slide {index + 1}">
-			<div class="slide-text">{@html slide.text}</div>
-		</div>
-	{/each}
-	<button type="button" class="previous" onclick={previousSlide}>&#10094;</button>
-	<button type="button" class="next" onclick={nextSlide}>&#10095;</button>
-	<div class="indicator-container">
-		{#each slides as _, index}
-			<button type="button" class="indicator {index === slideIndex ? 'active' : ''}" onclick={() => setSlide(index)}></button>
-		{/each}
-	</div>
-</div>
