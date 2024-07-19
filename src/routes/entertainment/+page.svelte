@@ -130,7 +130,7 @@
 				<h2>Golf Course</h2>
 				<p>
 					We are constructing a picturesque golf course that offers a challenging and scenic experience. Enjoy
-					breath-taking ocean views as you navigate our well-maintained greens. The golf course is planned to be
+					breathtaking ocean views as you navigate our well-maintained greens. The golf course is planned to be
 					operational within the next year!
 				</p>
 			</div>
