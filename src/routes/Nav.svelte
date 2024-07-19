@@ -55,6 +55,9 @@
 		color: white;
 	}
 	nav img {
+		width: 200px;
+		height: 100%;
+
 		opacity: 20%;
 		transition: opacity 0.3s ease;
 	}
