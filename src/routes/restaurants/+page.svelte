@@ -35,28 +35,7 @@
 			</div>
 		</div>
 		<div class="stacked-item">
-			<img src="/restaurants/restaurant-american1.jpg" alt="Pacific Breeze Diner">
-			<div class="text-container">
-				<h2>Pacific Breeze Diner</h2>
-				<p>
-					Enjoy classic American comfort food at the Pacific Breeze Diner. This cozy eatery offers everything from
-					hearty breakfast platters to delicious milkshakes and diner favorites, making it a great spot for any meal
-					of the day.
-				</p>
-			</div>
-		</div>
-		<div class="stacked-item">
-			<img src="/restaurants/restaurant-american2.jpg" alt="Ocean View BBQ">
-			<div class="text-container">
-				<h2>Ocean View BBQ</h2>
-				<p>
-					Feast on mouthwatering BBQ dishes at Ocean View BBQ. With a menu featuring ribs, pulled pork, and grilled
-					vegetables, this American-style restaurant offers a taste of home with a beautiful ocean backdrop.
-				</p>
-			</div>
-		</div>
-		<div class="stacked-item">
-			<img src="/restaurants/restaurant-restaurant2.jpg" alt="Taniti Bistro">
+			<img src="/restaurants/restaurant-panasian2.jpg" alt="Taniti Bistro">
 			<div class="text-container">
 				<h2>Taniti Bistro</h2>
 				<p>
@@ -73,6 +52,17 @@
 				<p>
 					Located near the island's main harbor, Harbor Side Seafood specializes in fresh, locally caught seafood. Enjoy
 					dishes such as grilled fish, seafood pasta, and creamy chowders in a rustic, nautical setting.
+				</p>
+			</div>
+		</div>
+		<div class="stacked-item">
+			<img src="/restaurants/restaurant-american1.jpg" alt="Pacific Breeze Diner">
+			<div class="text-container">
+				<h2>Pacific Breeze Diner</h2>
+				<p>
+					Enjoy classic American comfort food at the Pacific Breeze Diner. This cozy eatery offers everything from
+					hearty breakfast platters to delicious milkshakes and diner favorites, making it a great spot for any meal
+					of the day.
 				</p>
 			</div>
 		</div>
@@ -94,6 +84,16 @@
 				<p>
 					Enjoy a memorable dining experience at Sunset Grill, where you can savor grilled seafood and locally sourced
 					produce while watching the sun set over the ocean. The perfect spot for a romantic evening or a family dinner.
+				</p>
+			</div>
+		</div>
+		<div class="stacked-item">
+			<img src="/restaurants/restaurant-american2.jpg" alt="Ocean View BBQ">
+			<div class="text-container">
+				<h2>Ocean View BBQ</h2>
+				<p>
+					Feast on mouthwatering BBQ dishes at Ocean View BBQ. With a menu featuring ribs, pulled pork, and grilled
+					vegetables, this American-style restaurant offers a taste of home with a beautiful ocean backdrop.
 				</p>
 			</div>
 		</div>
