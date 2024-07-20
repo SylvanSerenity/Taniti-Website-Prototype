@@ -70,12 +70,29 @@
 			viewBox.y = startViewBoxY - deltaY;
 
 			const svgElement = svgContainer.querySelector('svg');
+			constrainViewBox(svgElement as unknown as SVGSVGElement);
 			svgElement?.setAttribute('viewBox', `${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`);
 		}
 	};
 
 	const handleMouseUp = () => {
 		isDragging = false;
+	};
+
+	const constrainViewBox = (svgElement: SVGSVGElement) => {
+		const rect = svgElement?.getBoundingClientRect();
+		if (!rect) return;
+
+		const maxOffsetX = viewBox.width * 0.8;
+		const maxOffsetY = viewBox.height * 0.8;
+
+		// Constrain the viewBox.x
+		if (viewBox.x < -maxOffsetX) viewBox.x = -maxOffsetX;
+		if (viewBox.x + viewBox.width > rect.width + maxOffsetX) viewBox.x = rect.width + maxOffsetX - viewBox.width;
+
+		// Constrain the viewBox.y
+		if (viewBox.y < -maxOffsetY) viewBox.y = -maxOffsetY;
+		if (viewBox.y + viewBox.height > rect.height + maxOffsetY) viewBox.y = rect.height + maxOffsetY - viewBox.height;
 	};
 
 	onMount(() => {
