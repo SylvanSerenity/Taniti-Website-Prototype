@@ -36,6 +36,8 @@
 			<p>No need! Taniti uses 120-volt outlets like you'd find in the United States; however, most lodging options are equipped with transformers for 240-volt appliances and have adapters for European outlets.</p>
 			<h2>Are there any medical facilities?</h2>
 			<p>Taniti has one hospital with multilingual employees and several small clinics spread across the island.</p>
+			<h2>What is the culture like in Taniti?</h2>
+			<p>Most of the locals are very welcoming to tourists and enjoy sharing their culture. Many traditional aspects of culture have been upheld for centuries, including our fishing methods, food preparation, entertainment, and architecture. Please be respectful of the culture when you visit and don't be afraid to join the fun!</p>
 			<h2>Does Taniti have holidays?</h2>
 			<p>Taniti celebrates many national holidays, some of which you may have the pleasure to experience on your trip. Many tourist attractions and facilities will be closed on holidays, so please plan accordingly.</p>
 			<h2>Is alcohol served?</h2>
