@@ -1,6 +1,5 @@
 <script>
 	import Nav from '../Nav.svelte';
-	import Footer from '../Footer.svelte';
 </script>
 
 <svelte:head>
@@ -10,7 +9,15 @@
 <Nav />
 
 <main>
-	<!-- TODO -->
+	<img src="/map/taniti.svg" alt="Taniti Island Map">
 </main>
 
-<Footer />
+<style>
+	main {
+		position: absolute;
+		top: 0;
+		height: 100%;
+
+		background-color: skyblue;
+	}
+</style>
