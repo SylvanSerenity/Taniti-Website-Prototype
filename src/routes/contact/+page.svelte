@@ -1,6 +1,19 @@
-<script>
+<script lang="ts">
 	import Nav from '../Nav.svelte';
 	import Footer from '../Footer.svelte';
+
+	let email = '';
+	let subject = '';
+	let message = '';
+
+	function sendForm(event: SubmitEvent) {
+		event.preventDefault();
+
+		alert("Sent!");
+		email = '';
+		subject = '';
+		message = '';
+	}
 </script>
 
 <svelte:head>
@@ -14,17 +27,17 @@
 	<form>
 		<label>
 			Email:
-			<input type="text" placeholder="email@domain.ext" required />
+			<input bind:value={email} type="text" placeholder="email@domain.ext" required />
 		</label>
 		<label>
 			Subject:
-			<input type="text" placeholder="Subject" required />
+			<input bind:value={subject} type="text" placeholder="Subject" required />
 		</label>
 		<label>
 			Message:
-			<textarea placeholder="Message..." required></textarea>
+			<textarea bind:value={message} placeholder="Message..." required></textarea>
 		</label>
-		<button type="submit">Send</button>
+		<button type="submit" onclick={sendForm}>Send</button>
 	</form>
 </main>
 
