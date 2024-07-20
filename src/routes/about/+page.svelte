@@ -30,6 +30,8 @@
 			<p>The official language of Taniti is Malaysian, but much of the younger generations speak fluent English as well. English is less often spoken in rural areas or by the older population.</p>
 			<h2>Which currency is used on the island?</h2>
 			<p>Taniti uses the United States Dollar currency. Many places accept debit and credit, but there are multiple ATMs on the island if you need cash.</p>
+			<h2>Where can I get groceries?</h2>
+			<p>Taniti has two supermarkets in Taniti City, two grocery stores around the island, and one convenience store open 24/7.</p>
 			<h2>Do I need to bring outlet adapters?</h2>
 			<p>No need! Taniti uses 120-volt outlets like you'd find in the United States; however, most lodging options are equipped with transformers for 240-volt appliances and have adapters for European outlets.</p>
 			<h2>Are there any medical facilities?</h2>
