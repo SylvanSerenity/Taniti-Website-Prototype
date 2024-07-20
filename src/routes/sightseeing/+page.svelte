@@ -35,16 +35,6 @@
 			</div>
 		</div>
 		<div class="stacked-item">
-			<img src="/sightseeing/boat-tour.jpg" alt="Boat Tour">
-			<div class="text-container">
-				<h2>Boat Tour</h2>
-				<p>
-					Embark on a scenic boat tour around Taniti's coast. Enjoy panoramic views
-					of the island's stunning shoreline, secluded coves, and diverse marine life.
-				</p>
-			</div>
-		</div>
-		<div class="stacked-item">
 			<img src="/sightseeing/eruption.jpg" alt="Eruption">
 			<div class="text-container">
 				<h2>Active Volcano</h2>
@@ -67,28 +57,6 @@
 			</div>
 		</div>
 		<div class="stacked-item">
-			<img src="/sightseeing/island-tour.jpg" alt="Island Tour">
-			<div class="text-container">
-				<h2>Guided Bus Tour</h2>
-				<p>
-					Join a guided bus tour to explore the best of Taniti. From bustling markets
-					to serene landscapes, our knowledgeable guides will ensure you experience
-					all the island's highlights.
-				</p>
-			</div>
-		</div>
-		<div class="stacked-item">
-			<img src="/sightseeing/taniti-city.jpg" alt="Taniti City">
-			<div class="text-container">
-				<h2>Taniti City</h2>
-				<p>
-					Visit Taniti City, the vibrant heart of the island. Enjoy shopping, dining,
-					and cultural attractions in this bustling urban center that beautifully
-					blends modernity with tradition.
-				</p>
-			</div>
-		</div>
-		<div class="stacked-item">
 			<img src="/sightseeing/twin-waterfall.jpg" alt="Twin Waterfall">
 			<div class="text-container">
 				<h2>Twin Waterfall</h2>
@@ -107,6 +75,38 @@
 					Relax on the white sands of Yellow Leaf Bay. This tranquil beach offers
 					clear waters, gentle waves, and the perfect setting for a day of sunbathing
 					and swimming.
+				</p>
+			</div>
+		</div>
+		<div class="stacked-item">
+			<img src="/sightseeing/boat-tour.jpg" alt="Boat Tour">
+			<div class="text-container">
+				<h2>Boat Tour</h2>
+				<p>
+					Embark on a scenic boat tour around Taniti's coast. Enjoy panoramic views
+					of the island's stunning shoreline, secluded coves, and diverse marine life.
+				</p>
+			</div>
+		</div>
+		<div class="stacked-item">
+			<img src="/sightseeing/island-tour.jpg" alt="Island Tour">
+			<div class="text-container">
+				<h2>Guided Bus Tour</h2>
+				<p>
+					Join a guided bus tour to explore the best of Taniti. From bustling markets
+					to serene landscapes, our knowledgeable guides will ensure you experience
+					all the island's highlights.
+				</p>
+			</div>
+		</div>
+		<div class="stacked-item">
+			<img src="/sightseeing/taniti-city.jpg" alt="Taniti City">
+			<div class="text-container">
+				<h2>Taniti City</h2>
+				<p>
+					Visit Taniti City, the vibrant heart of the island. Enjoy shopping, dining,
+					and cultural attractions in this bustling urban center that beautifully
+					blends modernity with tradition.
 				</p>
 			</div>
 		</div>
