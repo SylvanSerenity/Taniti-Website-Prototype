@@ -37,7 +37,7 @@
 			Message:
 			<textarea bind:value={message} placeholder="Message..." required></textarea>
 		</label>
-		<button type="submit" onclick={sendForm}>Send</button>
+		<button type="submit" onsubmit={sendForm}>Send</button>
 	</form>
 </main>
 
