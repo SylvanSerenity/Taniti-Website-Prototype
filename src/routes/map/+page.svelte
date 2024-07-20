@@ -1,5 +1,6 @@
 <script>
 	import Nav from '../Nav.svelte';
+	import Map from './Map.svelte';
 </script>
 
 <svelte:head>
@@ -9,7 +10,7 @@
 <Nav />
 
 <main>
-	<img src="/map/taniti.svg" alt="Taniti Island Map">
+	<Map />
 </main>
 
 <style>
