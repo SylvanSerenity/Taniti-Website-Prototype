@@ -7,8 +7,6 @@
 	let message = '';
 
 	function sendForm(event: SubmitEvent) {
-		event.preventDefault();
-
 		alert("Sent!");
 		email = '';
 		subject = '';
@@ -37,7 +35,7 @@
 			Message:
 			<textarea bind:value={message} placeholder="Message..." required></textarea>
 		</label>
-		<button type="submit" onsubmit={sendForm}>Send</button>
+		<button type="button" onclick={sendForm}>Send</button>
 	</form>
 </main>
 
